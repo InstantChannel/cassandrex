@@ -41,7 +41,7 @@ defmodule Cassandrex.Mixfile do
   #
   # Type "mix help deps" for more examples and options
   defp deps do
-    [{:cqerl, github: "matehat/cqerl", tag: "v1.0.2", only: :test},
+    [{:cqerl, github: "fewlinesco/cqerl", only: :test},
     {:espec, "~> 1.2.0", only: :test},
     {:excoveralls, "~> 0.5", only: :test},
     {:ex_doc, "~> 0.14", only: :dev},
